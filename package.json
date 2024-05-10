@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "back for the final project  for computo",
+  "main": "index.js",
+  "scripts": {
+    "test": "testing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "back_final_computo"
+  },
+  "keywords": [
+    "back",
+    "final",
+    "computo"
+  ],
+  "author": "xandraco",
+  "license": "ISC"
+}
