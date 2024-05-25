@@ -49,24 +49,13 @@ const registerUser = async (req, res) => {
             message: 'User registered successfully',
             user: newUser
         })
-        
-        // Encriptar la contrase;a
-        const hashed = await bcrypt.hash(password, 10)
-
-        //Guardar en la DB
-        await admin.firestore().collection('users').doc(email).set({
-            email: email,
-            password: hashed
-        })
-        res.status(201).json({
-            message: 'User registered successfully'
-        })
     } catch (error) {
         res.status(500).json({
-            message: 'InternaL Server Error'
+            message: 'Internal Server Error'
         })
     }
 }
+
 
 const getAllUsers = async (req, res) => {
     try{
@@ -83,8 +72,8 @@ const getAllUsers = async (req, res) => {
 }
 
 const deleteUser = async (req, res) => {
-    const uderId = req.params.id
-    try{
+    const userEmail = req.params.email
+    try {
         await User.deleteUser(userEmail)
         res.status(204).send()
     } catch (error) {
