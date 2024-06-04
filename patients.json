@@ -1,0 +1,122 @@
+[
+    {
+        "email": "juan.perez@example.com",
+        "fullName": "Juan Perez",
+        "age": 45,
+        "sex": "Male",
+        "address": "Avenida Reforma 123, 01000, Ciudad de México, CDMX",
+        "phoneNumber": "555-123-4567"
+    },
+    {
+        "email": "maria.garcia@example.com",
+        "fullName": "Maria Garcia",
+        "age": 38,
+        "sex": "Female",
+        "address": "Calle Juarez 456, 44100, Guadalajara, Jalisco",
+        "phoneNumber": "555-987-6543"
+    },
+    {
+        "email": "luis.martinez@example.com",
+        "fullName": "Luis Martinez",
+        "age": 52,
+        "sex": "Male",
+        "address": "Calle Hidalgo 789, 64000, Monterrey, Nuevo León",
+        "phoneNumber": "555-234-5678"
+    },
+    {
+        "email": "ana.lopez@example.com",
+        "fullName": "Ana Lopez",
+        "age": 29,
+        "sex": "Female",
+        "address": "Calle Insurgentes 321, 72000, Puebla, Puebla",
+        "phoneNumber": "555-345-6789"
+    },
+    {
+        "email": "carlos.hernandez@example.com",
+        "fullName": "Carlos Hernandez",
+        "age": 61,
+        "sex": "Male",
+        "address": "Calle Morelos 654, 77500, Cancún, Quintana Roo",
+        "phoneNumber": "555-456-7890"
+    },
+    {
+        "email": "sofia.romero@example.com",
+        "fullName": "Sofia Romero",
+        "age": 33,
+        "sex": "Female",
+        "address": "Avenida 5 de Mayo 876, 50000, Toluca, Estado de México",
+        "phoneNumber": "555-567-8901"
+    },
+    {
+        "email": "jorge.torres@example.com",
+        "fullName": "Jorge Torres",
+        "age": 47,
+        "sex": "Male",
+        "address": "Calle Independencia 987, 22000, Tijuana, Baja California",
+        "phoneNumber": "555-678-9012"
+    },
+    {
+        "email": "valeria.ramirez@example.com",
+        "fullName": "Valeria Ramirez",
+        "age": 27,
+        "sex": "Female",
+        "address": "Avenida Chapultepec 543, 97000, Mérida, Yucatán",
+        "phoneNumber": "555-789-0123"
+    },
+    {
+        "email": "fernando.gomez@example.com",
+        "fullName": "Fernando Gomez",
+        "age": 55,
+        "sex": "Male",
+        "address": "Calle Zaragoza 213, 76000, Querétaro, Querétaro",
+        "phoneNumber": "555-890-1234"
+    },
+    {
+        "email": "paola.fernandez@example.com",
+        "fullName": "Paola Fernandez",
+        "age": 41,
+        "sex": "Female",
+        "address": "Calle Revolución 678, 78000, San Luis Potosí, San Luis Potosí",
+        "phoneNumber": "555-901-2345"
+    },
+    {
+        "email": "hector.morales@example.com",
+        "fullName": "Hector Morales",
+        "age": 49,
+        "sex": "Male",
+        "address": "Avenida Universidad 345, 20000, Aguascalientes, Aguascalientes",
+        "phoneNumber": "555-012-3456"
+    },
+    {
+        "email": "andrea.diaz@example.com",
+        "fullName": "Andrea Diaz",
+        "age": 35,
+        "sex": "Female",
+        "address": "Calle Benito Juarez 456, 58000, Morelia, Michoacán",
+        "phoneNumber": "555-123-4567"
+    },
+    {
+        "email": "miguel.rodriguez@example.com",
+        "fullName": "Miguel Rodriguez",
+        "age": 38,
+        "sex": "Male",
+        "address": "Calle Allende 567, 80000, Culiacán, Sinaloa",
+        "phoneNumber": "555-234-5678"
+    },
+    {
+        "email": "carla.mendoza@example.com",
+        "fullName": "Carla Mendoza",
+        "age": 30,
+        "sex": "Female",
+        "address": "Calle Madero 678, 31000, Chihuahua, Chihuahua",
+        "phoneNumber": "555-345-6789"
+    },
+    {
+        "email": "ricardo.sanchez@example.com",
+        "fullName": "Ricardo Sanchez",
+        "age": 44,
+        "sex": "Male",
+        "address": "Avenida Constituyentes 789, 86000, Villahermosa, Tabasco",
+        "phoneNumber": "555-456-7890"
+    }
+]

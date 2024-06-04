@@ -19,7 +19,7 @@ const authenticateToken = (req, res, next) => {
     jwt.verify(token, process.env.SECRET, (err, user) => {
         if (err) {
             return res.status(403).json({
-                message: 'Forbidden'
+                message: 'Forbidden', err
             })
         }
         req.user = user

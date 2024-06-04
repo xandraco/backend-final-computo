@@ -23,7 +23,7 @@ const loginUser = async (req, res) => {
         }
 
         // Genera el TOKEN
-        const token = jwt.sign({ email: userDoc.email }, process.env.SECRET, { expiresIn: '1h' })
+        const token = jwt.sign({ email: userDoc.email }, process.env.SECRET, { expiresIn: '8h' })
         res.status(200).json({ 
             message: 'success',
             token
