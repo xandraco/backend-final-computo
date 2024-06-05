@@ -1,0 +1,77 @@
+[
+    {
+        "date": "2024-06-02",
+        "time": "10:00",
+        "patientEmail": "juan.perez@example.com"
+    },
+    {
+        "date": "2024-06-02",
+        "time": "11:00",
+        "patientEmail": "maria.garcia@example.com"
+    },
+    {
+        "date": "2024-06-02",
+        "time": "12:00",
+        "patientEmail": "luis.martinez@example.com"
+    },
+    {
+        "date": "2024-06-02",
+        "time": "14:00",
+        "patientEmail": "ana.lopez@example.com"
+    },
+    {
+        "date": "2024-06-02",
+        "time": "16:00",
+        "patientEmail": "carlos.hernandez@example.com"
+    },
+    {
+        "date": "2024-06-01",
+        "time": "10:00",
+        "patientEmail": "sofia.romero@example.com"
+    },
+    {
+        "date": "2024-06-01",
+        "time": "11:00",
+        "patientEmail": "jorge.torres@example.com"
+    },
+    {
+        "date": "2024-06-01",
+        "time": "12:00",
+        "patientEmail": "valeria.ramirez@example.com"
+    },
+    {
+        "date": "2024-06-01",
+        "time": "14:00",
+        "patientEmail": "fernando.gomez@example.com"
+    },
+    {
+        "date": "2024-06-01",
+        "time": "16:00",
+        "patientEmail": "paola.fernandez@example.com"
+    },
+    {
+        "date": "2024-06-03",
+        "time": "10:00",
+        "patientEmail": "hector.morales@example.com"
+    },
+    {
+        "date": "2024-06-03",
+        "time": "11:00",
+        "patientEmail": "andrea.diaz@example.com"
+    },
+    {
+        "date": "2024-06-03",
+        "time": "12:00",
+        "patientEmail": "miguel.rodriguez@example.com"
+    },
+    {
+        "date": "2024-06-03",
+        "time": "14:00",
+        "patientEmail": "carla.mendoza@example.com"
+    },
+    {
+        "date": "2024-06-03",
+        "time": "16:00",
+        "patientEmail": "ricardo.sanchez@example.com"
+    }
+]

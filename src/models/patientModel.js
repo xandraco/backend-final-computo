@@ -1,9 +1,11 @@
 // models/patientModel.js
 const admin = require('../config/firebase');
 const firestore = admin.firestore();
+const patientInterface = require('../interfaces/patientInterface')
 
-class Patient {
+class Patient extends patientInterface {
     constructor(email, data) {
+        super()
         this.email = email;
         this.data = data;
     }

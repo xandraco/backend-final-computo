@@ -2,7 +2,7 @@
 const Patient = require('../models/patientModel');
 
 const createPatient = async (req, res) => {
-    const userEmail = req.user.email; // Asumiendo que el middleware de autenticación agrega el email del usuario al req
+    const userEmail = req.user.email;
     const { fullName, age, sex, phoneNumber, email, address } = req.body;
     const patientData = { fullName, age, sex, phoneNumber, email, address };
     
