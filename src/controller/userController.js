@@ -4,7 +4,6 @@ const User = require('../models/userModel')
 const loginUser = async (req, res) => {
     try {
         const { email, password } = req.body
-
         // Buscamos el usuario para verificar que existe el correo electronico
         //ahora con firebase-admin solo lo podemos poner asi
         const userDoc = await User.findByEmail(email)

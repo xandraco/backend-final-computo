@@ -5,6 +5,7 @@ const router = express.Router();
 const { registerUser, loginUser, getAllUsers, deleteUser, updateUser } = require('./../controller/userController');
 const { createPatient, getPatient, updatePatient, deletePatient, getAllPatients } = require('./../controller/patientController');
 const { createAppointment, getAppointment, updateAppointment, deleteAppointment, getAllAppointments } = require('../controller/appointmentController');
+const { createProduct, getProduct, updateProduct, deleteProduct, getAllProducts } = require('./../controller/productController');
 const authenticateToken = require('./../auth/authMiddleware');
 
 // usuarios
@@ -19,7 +20,7 @@ router.post('/patient/create', authenticateToken, createPatient);
 router.get('/patient/get/:email', authenticateToken, getPatient);
 router.put('/patient/update/:email', authenticateToken, updatePatient);
 router.delete('/patient/delete/:email', authenticateToken, deletePatient);
-router.get('/patient/get/all', authenticateToken, getAllPatients);
+router.get('/patient/get-all', authenticateToken, getAllPatients);
 
 // citas
 router.post('/appointment/create', authenticateToken, createAppointment);
@@ -27,5 +28,12 @@ router.get('/appointment/get/:id', authenticateToken, getAppointment);
 router.put('/appointment/update/:id', authenticateToken, updateAppointment);
 router.delete('/appointment/delete/:id', authenticateToken, deleteAppointment);
 router.get('/appointment/get-all', authenticateToken, getAllAppointments);
+
+// productos
+router.post('/product/create', authenticateToken, createProduct);
+router.get('/product/get/:id', authenticateToken, getProduct);
+router.put('/product/update/:id', authenticateToken, updateProduct);
+router.delete('/product/delete/:id', authenticateToken, deleteProduct);
+router.get('/product/get-all', authenticateToken, getAllProducts);
 
 module.exports = router;
